@@ -19,21 +19,6 @@ body {
   padding-top: 65px;
 }
 
-main {
-  margin-top: 55px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-h1, ul {
-  font-family: "Mulish", sans-serif;
-}
-
-a {
-  color: #1f1534;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -44,6 +29,13 @@ nav ul {
   gap: 48px;
 }
 
+a {
+  color: #1f1534;
+}
+
+h1, ul {
+  font-family: "Mulish", sans-serif;
+}
 
 nav a {
   font-size: 18px;
@@ -53,6 +45,13 @@ nav a {
 nav a:hover {
   font-weight: bold;
   opacity: 1;
+}
+
+main {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 section h1 {
